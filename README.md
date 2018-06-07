@@ -1,3 +1,1 @@
-# homework-html-css
-
-https://wardmad.github.io/homework-html-css-week1/
+https://wardmad.github.io/HTML-CSS-week1/
