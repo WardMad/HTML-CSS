@@ -10,7 +10,8 @@ h1{
  border-style: solid;
  border-width: thin;
  border-color:dodgerblue;
-  color:lightblue;
+ color:lightblue;
+ text-align: center;
 }
 
 .column {
@@ -27,8 +28,7 @@ h1{
 }
 
 .container:nth-child(1){
-  
-    background-color:	 #3973ac;
+  background-color:	 #3973ac;
 }
 
 h2{
@@ -37,6 +37,7 @@ h2{
     background-color: lightblue;
    
 }
+
  .container p  {
   font-family: monospace;
   font-size: 20px;
@@ -92,9 +93,7 @@ ul li {
 }
 
 .flex-direction{
-
-flex-direction: column;
-
+  flex-direction: column;
 }
 
 /* section:nth-child(4){
