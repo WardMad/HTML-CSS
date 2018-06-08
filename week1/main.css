@@ -1,10 +1,7 @@
-
 body{
   background-image:url("https://www.universitego.com/wp-content/uploads/2016/11/nature-sea-water-blue-sky-wide.jpg");
    background-repeat: no-repeat;
-    background-size:100% 100%;
-  
-  
+   background-size:cover;
 
 }
 
@@ -15,18 +12,23 @@ h1{
  border-color:dodgerblue;
   color:lightblue;
 }
+
 .column {
  display: flex;  
 /*  flex-wrap: wrap;
      */
+
 }
 
 .container{
   width: 350px;
-  background-color: lightgrey;
-      opacity: 0.8;
   padding:30px ;
-  margin: 15px 10px;
+  margin: 12px 6px ;
+}
+
+.container:nth-child(1){
+  
+    background-color:	 #3973ac;
 }
 
 h2{
@@ -40,14 +42,15 @@ h2{
   font-size: 20px;
 }
 
-.resize {
+.resize { 
   background-image:url("  https://www.photohdx.com/images/2016/11/clean-white-grey-paper-background.jpg");
-     background-repeat: no-repeat;
-    opacity: 0.8;
-  width: 430px;
+  background-repeat: no-repeat;
+  width: 420px;
   height:360px;
  
 }
+
+
 .resize p{
     font-family: time;
     
@@ -65,15 +68,11 @@ h2{
 }
 
 .back-img{
-
   background-image:url(" https://png.pngtree.com/thumb_back/fw800/back_pic/00/15/30/4656e81f6dc57c5.jpg");
-  opacity: 0.8;
+/*   opacity: 0.6; */
   
 }
 
-.back-img:hover {
-    opacity: 1.0;
-}
 
 ul {     
   padding: 10px;
@@ -82,7 +81,7 @@ ul {
 ul li {
   border-style: ridge;
 /*    border-color:lightblue; */
-  border-width: 5px;
+  border-width: 3px;
    border-radius: 5px;
   font-weight:bold;
   font-size:20px;
@@ -94,8 +93,9 @@ ul li {
 
 .flex-direction{
 
-display: flex;
 flex-direction: column;
-padding-top:20px;
+
 }
 
+/* section:nth-child(4){
+      background: red;} */
