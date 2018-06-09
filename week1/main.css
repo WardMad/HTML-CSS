@@ -21,13 +21,13 @@ h1{
 
 }
 
-.container{
+.content{
   width: 350px;
   padding:30px ;
   margin: 12px 6px ;
 }
 
-.container:nth-child(1){
+.content:nth-child(1){
   
     background-color:	 #3973ac;
 }
@@ -38,7 +38,7 @@ h2{
     background-color: lightblue;
    
 }
- .container p  {
+ .content p  {
   font-family: monospace;
   font-size: 20px;
 }
