@@ -1,0 +1,21 @@
+1. Research how to create a 
+hidden file and how to display it using ls command.
+
+ touch .memo.txt
+ ls -a
+
+2. Research how to create multiple 
+nested directories with one mkdir command.
+
+ mkdir -p folder/are/just/for/fun
+
+ 3. Execute following commands terminal:
+    echo "test" > fun
+    echo "another test" >> fun
+    wc -c fun
+
+    18 fun.txt
+
+ 4.  
+  echo -n "example" >fun.txt
+  echo -n "something" >> fun
